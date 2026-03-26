@@ -1,0 +1,32 @@
+﻿/*
+** CXXL LayoutZone Styles
+** ----------------------
+**
+** Author: Werum AG
+**
+** History:
+** 03.12.2018 SK: Create
+** 27.06.2019 SK: Anpassungen wg. 5.6: div#layout_???pane 
+**
+*/
+
+div#layout_leftpane, 
+div#layout_rightpane, 
+div#layout_contentpane,
+div#layout_headerpane,
+div#layout_footerpane { border: 0px dotted grey; min-height: 20px; }
+
+div[id*="layout_radDockZone"]          { border:1px dotted #0072C6!important; height: 100%; min-height: 200px !important; }
+div[class*="cxxl-pane-blocked"]:before { background-color:#A71D23!important; color:white;}
+
+div#layout_headerpane:before,
+div#layout_leftpane:before, 
+div#layout_contentpane:before,
+div#layout_rightpane:before,
+div#layout_footerpane:before  { background-color:#0072C6; color:white; padding:3px 5px 3px 5px; font-size:10px; border: 0; }
+
+div#layout_headerpane:before  { content: "layoutzone header"; }
+div#layout_leftpane:before    { content: "layoutzone left"; }
+div#layout_contentpane:before { content: "layoutzone content"; }
+div#layout_rightpane:before   { content: "layoutzone right"; }
+div#layout_footerpane:before  { content: "layoutzone footer"; }

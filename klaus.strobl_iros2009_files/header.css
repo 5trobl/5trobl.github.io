@@ -1,0 +1,49 @@
+   /* Header-Images immer */
+   body.dlr #dlr-institute           { background:       url("../images/header-neutral.jpg") no-repeat scroll center top transparent; }
+   body.dlr #dlr-institute.header-25 { background-image: url("../images/header-me.jpg"); }
+   body.dlr #dlr-institute.header-28 { background-image: url("../images/header-rd.jpg"); }
+   body.dlr #dlr-institute.header-43 { background-image: url("../images/header-tm.jpg"); }
+   body.dlr #dlr-institute.header-48 { background-image: url("../images/header-rmc.jpg"); }
+   body.dlr #dlr-institute.header-49 { background-image: url("../images/header-iaasymp.jpg"); }
+   body.dlr #dlr-institute.header-52 { background-image: url("../images/header-rmc.jpg"); }
+   body.dlr #dlr-institute.header-59 { background-image: url("../images/header-gfr.jpg"); }
+   body.dlr #dlr-institute.header-68 { background-image: url("../images/header-pw.jpg"); }
+   body.dlr #dlr-institute.header-73 { background-image: url("../images/header-sf.jpg");} 
+   body.dlr #dlr-institute.header-78 { background-image: url("../images/header-vabene.jpg");} 
+   body.dlr #dlr-institute.header-79 { background-image: url("../images/header-firebird.jpg");} 
+   body.dlr #dlr-institute.header-80 { background-image: url("../images/Header_gross-veu.jpg"); }
+   body.dlr #dlr-institute.header-82 { background-image: url("../images/header-rmc.jpg"); }
+   body.dlr #dlr-institute.header-83 { background-image: url("../images/header-rmc.jpg"); }
+   body.dlr #dlr-institute.header-85 { background-image: url("../images/header-mi.jpg"); }
+   body.dlr #dlr-institute.header-98 { background-image: url("../images/header-pi2.jpg"); }
+
+   body.dlr #dlr-institute-wrap      { padding-top: 149px; }
+   body.dlr div.searchform           { top: 205px; }
+
+   /** 25.04.2013 SK: Copyrightzeile leer **/
+   body.dlr #dlrBottom div           { text-indent: 0px; }
+
+   /** 12.01.2017 SK: Anpassung für JWPlayer HTML5-Modus **/
+   /* JW Player positions will beat digitaloffice position static for all divs */
+   .jwplayer { position: relative !important; }
+   .jwclick, .jwmain, .jwvideo, .jwcontrols, 
+   .jwcontrolbar, .jwplaylistcontainer, .jwcaptions, 
+   .jwdisplay, .jwpreview, .jwlogo, .jwbackground { position: absolute !important; }
+   .jwdisplayIcon div, .jwcontrolbar span,
+   .jwcontrolbar .jwgroup button, .jwcontrolbar .jwleft { position: relative; }
+
+	/** 2019-06-19 seth: poor-man's responsiveness*/
+	@media (max-width:768px){
+		body.dlr #dlr-institute.header-52{background:transparent url("../images/header-rmc.jpg") no-repeat scroll -111px top;}
+		#content-left{display:none;}
+		#content-right{display:none;}
+		#dlrHeader{width:100%; background:none;}
+		#dlrHeader img.headerpic{left:0; width:100%; max-width:353px;}
+		#dlr-institute-wrap{width:100%;}
+		#dlrOverall{width:100%;}
+		#dlrBreadcrumb{width:100%;}
+		#dlrContent{width:100%;}
+		#dlrSiteservice{float:right; background:none;}
+		#dlrSiteservice div.leftsiteservicepane{display:none;}
+		#content-center{width:100% !important;}
+	}

@@ -1,0 +1,43 @@
+div.table {	display:table; }
+div.tr    {	display:table-row; }
+div.td    {	display:table-cell; VERTICAL-ALIGN: top; }
+div.in    {	display:inline; }
+
+div.sizepane {
+z-index:10;
+position:absolute;
+top:0px;
+right:0px;
+width:176px;
+height:18px;
+text-align:center;
+}
+
+.border-bl
+{
+border-top:1px solid #FFFFFF;
+}
+
+div.bottom 
+{
+ height:auto;
+}
+
+img.mouseout   { border:solid 1px #E6E6E6; padding:2px; margin-top:5px; }
+img.mouseover  { border:solid 1px #000000; padding:2px; margin-top:5px; }
+
+
+.contentimagetext { width:197; }
+.contentimagetext100 { width:97; }
+.contentimagetext150 { width:147; }
+.contentimagetext250 { width:247; }
+.contentimagetext300 { width:297; }
+.contentimagetext320 { width:317; }
+.contentimagetext380 { width:377; }
+.contentimagetext560 { width:557; }
+.contentimagetext570 { width:567; }
+
+div.leftsiteservicepane
+{
+	width:165px;
+}

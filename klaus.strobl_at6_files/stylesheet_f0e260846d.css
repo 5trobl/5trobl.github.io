@@ -1,0 +1,42 @@
+/* default styles for extension "tx_sixpack_pi1" */
+   .tx-sixpack-pi1-text  { 
+      font-weight: bold; margin-bottom: 10px; 
+      font-family: verdana, arial, sans-serif;
+   }
+   
+   td.tx_sixpack_pi1-yearnavi {
+	   background-color: #7ca6a6; color: white; font-weight: bold;
+      font-family: verdana, arial, sans-serif;
+   }
+   td.tx_sixpack_pi1-pagenavi {
+	   background-color: #c9dbd8; color: black; font-weight: bold;
+      font-family: verdana, arial, sans-serif;
+   }
+   td.tx_sixpack_pi1-bibtitle {
+	   background-color: #999999; color: white; font-weight: bold;
+      font-family: verdana, arial, sans-serif;
+      font-size: 14px;
+   }
+   td.tx_sixpack_pi1-item-0 {
+	   background-color: #e6f2f2; color: black;
+   }
+   td.tx_sixpack_pi1-item-1 {
+	   background-color: #ffffff; color: black;
+   }
+   td.tx_sixpack_pi1-preview {
+	   background-color: #c9dbd8; color: black;
+   }
+/* default styles for extension "tx_quickpoll" */
+		.tx-quickpoll-pi1 .pollbar { BACKGROUND: url(/typo3conf/ext/quickpoll/pi1/pollbar.gif) repeat-x left center;}
+		.tx-quickPoll-pi1 .polltable{WIDTH: 100%;}
+		.tx-quickPoll-pi1 h2 {font-size:11px;}
+		.tx-quickPoll-pi1 TH {
+							/* make it solid */
+		  					text-transform:uppercase;
+		  					margin-bottom:10px;
+							/* indent from left */  
+		  					padding-left:4px;}
+		.tx-quickPoll-pi1 .pollquestion {PADDING-BOTTOM: 3px;}
+		.tx-quickPoll-pi1 .pollanswer {vertical-align: -20%;BORDER: none;}
+		.tx-quickPoll-pi1 .polltotal {text-align:center;PADDING-TOP: 6px;}
+		.tx-quickPoll-pi1 .pollresulttext {padding-top: 6px;}
